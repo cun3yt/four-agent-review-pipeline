@@ -2,6 +2,8 @@
 
 What should happen when someone clicks Reset in a sidebar with no active filters? If a coding agent chooses the behavior and writes a test for its choice, every check can pass while the product question is still open. This pipeline moves that decision upstream. A person approves the expected behavior, four agents divide up implementation and review, and a person decides whether to merge.
 
+I wrote [On Moving Code Review Upstream](https://cune.yt/blog/on-moving-code-review-upstream/) to explain why I review the expected behavior before implementation and how splitting the work across four agents helps me see what a passing test actually proves.
+
 [Follow the Reset example through a full run](flow.md), including what each role receives and where a failed check goes.
 
 ## Decide what can run unattended
